@@ -12,7 +12,18 @@ Kursmaterialet för denna dagen består av detta git-repo
 
 ### Dagens innehåll
 
-Målet med dagen är att bygga en liten mikrotjänst för att spara bilder med hjälp av Dropwizard (https://www.dropwizard.io/en/latest/) och MinIO (https://docs.min.io/docs/minio-quickstart-guide.html, en object storage vars API är kompatibelt med Amazon S3 storage.)
+Målet med dagen är att bygga en liten mikrotjänst för att spara bilder med hjälp av Dropwizard (https://www.dropwizard.io/en/latest/) 
+och MinIO (https://docs.min.io/docs/minio-quickstart-guide.html, en object storage vars API är kompatibelt med Amazon S3 storage.)
+
+Dropwizard är något mellanting mellan ett ramverk och ett bibliotek. Dropwizard kombinerar en rad bibliotek som gör att man väldigt snabbt kan bygga en webbtjänst.
+
+Lite kort om vilka bibliotek som används och till vad:
+* Dropwizard kan köras som en simpel process utan att behöva deploya till en applikationsserver. Dropwizard använder *Jetty* som en inbyggd HTTP-server.
+* För REST så används *Jersey* som är en implementation av *JAX-RS*
+* För att hantera JSON används *Jackson*
+* och flera andra
+
+
 
 #### Installera lokal MinIO-server
 
