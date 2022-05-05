@@ -1,8 +1,6 @@
 package com.combitech.images.api;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 @Path("api/sayhello")
@@ -14,7 +12,12 @@ public interface SayHelloResource {
     @GET
     @Path("jsonhello")
     @Produces(MediaType.APPLICATION_JSON)
-    HelloWorld sayHelloJson();
+    HelloWorld sayHelloJson(@QueryParam("name") String name);
+
+    @GET
+    @Path("jsonhello/{name}")
+    @Produces(MediaType.APPLICATION_JSON)
+    HelloWorld sayHelloJsonPathParam(@PathParam("name") String name);
 
 
 }
