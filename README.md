@@ -16,6 +16,9 @@ Kursmaterialet för denna dagen består av detta git-repo och inspelningar från
 [11.10-12.00](https://combitechcloud-my.sharepoint.com/personal/martin_frisk_combitech_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmartin%5Ffrisk%5Fcombitech%5Fcom%2FDocuments%2FRecordings%2FDag%202%20Java%2Dkurs%2D20220505%5F111149%2DM%C3%B6tesinspelning%2Emp4&parent=%2Fpersonal%2Fmartin%5Ffrisk%5Fcombitech%5Fcom%2FDocuments%2FRecordings&ga=1)
 - Installerade MinIO-server och Postman. Lade till config för Minio och skapade upp en ImagesResource.
 
+[13.00-13.40](https://combitechcloud-my.sharepoint.com/personal/martin_frisk_combitech_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmartin%5Ffrisk%5Fcombitech%5Fcom%2FDocuments%2FRecordings%2FDag%202%20Java%2Dkurs%2D20220505%5F130106%2DM%C3%B6tesinspelning%2Emp4&parent=%2Fpersonal%2Fmartin%5Ffrisk%5Fcombitech%5Fcom%2FDocuments%2FRecordings&ga=1)   
+- Lade till implementation för att ladda upp och hämta en bild.
+
 
 ### Dagens innehåll
 
