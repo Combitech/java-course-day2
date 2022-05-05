@@ -8,9 +8,13 @@ Kod från dag 2 i "Utveckling i modern Java"
 
 
 ### Kursmaterial
-Kursmaterialet för denna dagen består av detta git-repo och inspelningar från Teams-mötet. Se nedan för länkar:   
+Kursmaterialet för denna dagen består av detta git-repo och inspelningar från Teams-mötet. Se nedan för länkar:     
+
 [8.30-10.30](https://combitechcloud-my.sharepoint.com/personal/martin_frisk_combitech_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmartin%5Ffrisk%5Fcombitech%5Fcom%2FDocuments%2FRecordings%2FDag%202%20Java%2Dkurs%2D20220505%5F083830%2DM%C3%B6tesinspelning%2Emp4&parent=%2Fpersonal%2Fmartin%5Ffrisk%5Fcombitech%5Fcom%2FDocuments%2FRecordings&ga=1) 
 - Introduktion till dropwizard, JAX-RS och Jackson. Skapade en första Hello World-resurs
+
+[11.10-12.00](https://combitechcloud-my.sharepoint.com/personal/martin_frisk_combitech_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmartin%5Ffrisk%5Fcombitech%5Fcom%2FDocuments%2FRecordings%2FDag%202%20Java%2Dkurs%2D20220505%5F111149%2DM%C3%B6tesinspelning%2Emp4&parent=%2Fpersonal%2Fmartin%5Ffrisk%5Fcombitech%5Fcom%2FDocuments%2FRecordings&ga=1)
+- Installerade MinIO-server och Postman. Lade till config för Minio och skapade upp en ImagesResource.
 
 
 ### Dagens innehåll
