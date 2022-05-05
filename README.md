@@ -19,6 +19,9 @@ Kursmaterialet för denna dagen består av detta git-repo och inspelningar från
 [13.00-13.40](https://combitechcloud-my.sharepoint.com/personal/martin_frisk_combitech_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmartin%5Ffrisk%5Fcombitech%5Fcom%2FDocuments%2FRecordings%2FDag%202%20Java%2Dkurs%2D20220505%5F130106%2DM%C3%B6tesinspelning%2Emp4&parent=%2Fpersonal%2Fmartin%5Ffrisk%5Fcombitech%5Fcom%2FDocuments%2FRecordings&ga=1)   
 - Lade till implementation för att ladda upp och hämta en bild.
 
+[14.20-15.10](https://combitechcloud-my.sharepoint.com/personal/martin_frisk_combitech_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmartin%5Ffrisk%5Fcombitech%5Fcom%2FDocuments%2FRecordings%2FDag%202%20Java%2Dkurs%2D20220505%5F142103%2DM%C3%B6tesinspelning%2Emp4&parent=%2Fpersonal%2Fmartin%5Ffrisk%5Fcombitech%5Fcom%2FDocuments%2FRecordings&ga=1)
+- Maven, Cucumber-tests, Mockito
+
 
 ### Dagens innehåll
 
