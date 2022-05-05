@@ -16,6 +16,7 @@ public interface ImageResource {
      */
     @GET
     @Path("{id}")
+    @Produces({"image/png", "image/jpeg"})
     Response getImage(@PathParam("id") Long id);
 
     /**

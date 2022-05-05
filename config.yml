@@ -7,7 +7,7 @@ minioEndpoint: http://localhost:9000
 
 minioAccesKey : minioadmin
 
-minioSecretKey : minioAdmin
+minioSecretKey : minioadmin
 
 minioBucket: images
 
