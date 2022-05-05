@@ -47,7 +47,18 @@ public class ImageResourceImpl implements ImageResource {
 
     @Override
     public Response deleteImage(Long id) {
-        return null;
+        RemoveObjectArgs removeObjectArgs = RemoveObjectArgs.builder()
+                .bucket(minioBucket)
+                .object(id.toString())
+                .build();
+        try {
+            minioClient.removeObject(removeObjectArgs);
+            return Response.noContent().build();
+        } catch (ErrorResponseException | InsufficientDataException | InternalException | InvalidKeyException
+                | InvalidResponseException | IOException | NoSuchAlgorithmException | ServerException | XmlParserException e) {
+            LOG.error("Error deleting image: ", e);
+            throw new WebApplicationException(500);
+        }
     }
 
     @Override
