@@ -4,3 +4,10 @@ server:
       port: 8084
 
 minioEndpoint: http://localhost:9000
+
+minioAccesKey : minioadmin
+
+minioSecretKey : minioAdmin
+
+minioBucket: images
+
