@@ -40,3 +40,11 @@ Lite kort om vilka bibliotek som används och till vad:
 - Fyll i ett namn på din bucket, t.ex images
 - Om du går tillbaka till filsystemet så ser man nu att det finns en katalog som heter samma sak som den bucket du skapade i steget ovan.
 
+#### Installera Postman för att göra api-anrop
+- Ladda ned från följande länk :   https://www.postman.com/downloads/
+- Installera programmet 
+- För att göra ett anrop gör följande
+  - Tryck på "new" ute till höger
+  - Välj "HTTP Request"
+  - Skriv in URL till resursen du vill anropa och välj Method
+  - Ska du göra en PUT eller POST så välj "Body" för att skicka med data i requesten
