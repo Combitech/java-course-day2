@@ -4,6 +4,7 @@ import com.combitech.aircraft.resources.AircraftResource;
 import com.combitech.aircraft.resources.AircraftTypeResource;
 import com.combitech.aircraft.resources.OwnerResource;
 import com.combitech.aircraft.resources.SayHelloResourceImpl;
+import com.combitech.aircraft.services.AircraftService;
 import com.combitech.aircraft.services.AircraftTypeService;
 import com.combitech.aircraft.services.OwnerService;
 import io.dropwizard.core.Application;
@@ -14,7 +15,7 @@ public class AircraftApplication extends Application<Configuration> {
     @Override
     public void run(Configuration configuration, Environment environment) throws Exception {
         environment.jersey().register(new SayHelloResourceImpl());
-        environment.jersey().register(new AircraftResource());
+        environment.jersey().register(new AircraftResource(new AircraftService()));
         environment.jersey().register(new AircraftTypeResource(new AircraftTypeService()));
         environment.jersey().register(new OwnerResource(new OwnerService()));
     }
